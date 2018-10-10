@@ -16,5 +16,5 @@ module.exports = {
   area:function(r){ return Math.PI * r * r; }
 }
 
-console.log(module);
+//console.log(module);
 
