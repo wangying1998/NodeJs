@@ -2,7 +2,5 @@
 
 const fs = require('fs');
 
-var src = process.argv[2],
-    dst = process.argv[3];
-fs.
+var src = process.argv[2],dst = process.argv[3];
 

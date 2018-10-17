@@ -11,14 +11,14 @@ fs.readFile(file,(err,data)=>{
   else{
     console.log(data.toString('utf8')); 
   }
-})
+});
 var fid = fs.openSync(file,'r');
 var len = fs.statSync(file).size;
 var buf = new Buffer(len);
 fs.readSync(fid,buf,0,len);
 
 fs.writeSync(1,buf);
-console.log(fs.readFileSync(fid).toString('utf8'))
+console.log(fs.readFileSync(fid).toString('utf8'));
 
 fs.closeSync(fid);
 

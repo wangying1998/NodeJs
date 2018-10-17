@@ -4,5 +4,5 @@ const fs = require('fs');
 
 var dir = process.argv[2];
 
-fs.mkdirSync(file);
+fs.mkdirSync(dir);
 
