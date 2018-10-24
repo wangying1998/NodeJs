@@ -1,8 +1,6 @@
 #!/usr/bin/node
 
-const http = require('http');
-      fs = require('fs');
-      path = require('path');
+const http = require('http'),fs = require('fs'),path = require('path');
 
 var file;
 http.createServer((req,res)=>{
